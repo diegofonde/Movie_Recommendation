@@ -30,6 +30,9 @@ from sklearn.preprocessing import MinMaxScaler
 from plotnine import *
 import matplotlib.pyplot as plt
 
+# Importing trained model
+import joblib
+
 ## 1. Creating Visualizations
 
 # Importing the dataset
@@ -333,4 +336,6 @@ for user_id, group in unique_users_y:
 X_test, Y_test = np.array(X_test, dtype=np.float32), np.array(Y_test, dtype=np.float32)
         
 regressor.evaluate(X_test, Y_test)
+
+joblib.dump(regressor, 'regressor.joblib')
 
