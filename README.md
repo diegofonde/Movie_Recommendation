@@ -3,7 +3,7 @@
 
 # Source Files and Folders
 * movie_recommendation.py
-* ender_by_age_plot.png
+* gender_by_age_plot.png
 * ml-100k
 * ml-1m
 * ml-latest-small
