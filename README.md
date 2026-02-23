@@ -7,7 +7,7 @@ The model utilizes a stacked approach to handle both the complexity of user pref
 * LSTM (Long Short-Term Memory): Processes these latent representations over time to identify patterns in how a user's genre interests evolve.
 
 ## EDA 
-Before modeling, initial EDA was done using python in order to understand the distribution of data. 
+Before modeling, initial EDA was done using python in order to understand the distribution of data. Visualization was done to look into movie genere distribution, age distribution by gender, and job occupation by gender. 
 
 ## Source Files and Folders
 * movie_recommendation.py
